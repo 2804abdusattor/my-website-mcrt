@@ -1,1 +1,1 @@
-<img src="/include/bx_default_logo.gif" alt="" />
+<img width="100" src="https://cdn1.flamp.ru/b97b45751bfe8d9ef331f55614822c55.jpg" height="100">
